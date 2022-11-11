@@ -32,4 +32,4 @@ for data in soup.findAll('div',class_='_16PBlm'):
 
 df=pd.DataFrame({'Consumer Name':consumer, 'Rating (Out of 5)':rating, 'Heading':heading, 'Review':review})
 df.head(count)
-df.to_csv("c:/Users/HP/OneDrive/Desktop/FlipkartWebScraper/Reviews.csv",index=False)
+df.to_csv("Reviews.csv",index=False)
